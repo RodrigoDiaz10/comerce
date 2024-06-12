@@ -1,0 +1,49 @@
+
+a{
+    font-family: "Hind", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  header{
+    background-color: rgb(58, 58, 58);
+    display: flex;
+    justify-content: flex-end ;/*space-between*/
+    align-items: center;
+    height: 85px;
+    padding: 5px 10%;
+
+    
+  }
+  .header .logo img{
+    height: 70px;
+    width: auto;
+    transition: all 0.3s;
+  }
+
+  .header .logo{
+    cursor: pointer;
+    margin-right: auto;
+  }
+  .header .logo img:hover{
+    transform: scale(1.2);
+  }
+  .header .nav-links{
+    list-style: none;
+  }
+
+  .header .nav-links li{
+    display: inline-block;
+    padding: 0 20px;
+  }
+
+  .header .nav-links a{
+    font-size: 700;
+    color: rgb(115, 238, 197);
+    text-decoration: none;
+  }
+  .header .nav-links li:hover{
+    transform: scale(1.2);
+  }
+  .header .nav-links li a:hover{
+    color: blueviolet;
+  }
